@@ -1,0 +1,5 @@
+metros= float(input("Ingrese la cantidad de metros:"))
+pulgadas=(metros*39.27)
+print("Es igual a", str(pulgadas), "pulgadas.")
+pie=(pulgadas/12)
+print("Es igual a", str(pie), "pies.")
