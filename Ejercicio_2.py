@@ -1,0 +1,5 @@
+capital= int (input("Ingrese la cantidad de dinero a invertir: "))
+interes = float (input ("Ingrese el porcentaje de interés que el banco pagará mensualmente:"))
+ganancia=(capital*interes)
+total=(capital+ganancia)
+print("En total de dinero al nial de un mes será de: ")
