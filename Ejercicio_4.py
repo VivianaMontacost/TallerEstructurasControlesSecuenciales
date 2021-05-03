@@ -1,0 +1,5 @@
+valorcompra=float (input("Digite el valor total de la compra:"))
+descuento=float (valorcompra*0.15)
+pagofinal= float (valorcompra-descuento)
+print("El valor del descuento es de:", str(descuento))
+print("El valor final a pagar es de:", str(pagofinal))
