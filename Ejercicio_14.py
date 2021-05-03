@@ -1,0 +1,7 @@
+Costomesmarzo=float(input("Ingrese el valor del recibo de luz del mes de Marzo:"))
+Kw= float(input("Ingrese el número de Kilovatios consumidos en Marzo:"))
+PrecioKw=(Costomesmarzo/Kw)
+print("El costo de un Kilovatio es de:", str(PrecioKw), "pesos.")
+KwAbril= float(input("Ingrese la cantidad de Kilovatios consumidos en Abril:"))
+consumoAbril=(PrecioKw*KwAbril)
+print("El monto a pagar en el mes de Abril es de:", str(consumoAbril), "pesos.")
