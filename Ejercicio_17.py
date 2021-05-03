@@ -1,0 +1,7 @@
+presupuestototal= float(input("Ingrese el presupuesto total para el hospital:"))
+presupuestoginecologia=(presupuestototal*0.4)
+presupuestotraumatologia=(presupuestototal*0.3)
+presupuestopediatria=(presupuestototal*0.3)
+print("El presupuesto para Ginecología es de:", str(presupuestoginecologia), "pesos.")
+print("El presupuesto para Traumatología es de:", str(presupuestotraumatologia), "pesos.")
+print("El presupuesto para Pediatría es de:", str(presupuestopediatria), "pesos.")
