@@ -1,0 +1,7 @@
+cantidadnaranjas= float (input("Ingrese la cantidad de naranjas compradas:"))
+valordocena= float (input("Ingrese el valor de cada docena:"))
+ventas= float (input("Ingrese el valor obtenido en ventas:"))
+pagoalagricultor=((cantidadnaranjas/12)*valordocena)
+ganancia=(ventas-pagoalagricultor)
+porcentaje=((ganancia*100)/pagoalagricultor)
+print("El porcentaje de gamancia fue de:", str(porcentaje))
